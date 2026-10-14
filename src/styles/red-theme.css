@@ -1,0 +1,100 @@
+
+:root {
+  --primary-red: #dc2626;
+  --primary-red-hover: #b91c1c;
+  --light-red: #fee2e2;
+  --soft-red: #fff5f5;
+}
+
+
+.courses-page .highlight,
+.courses-page .accent-text,
+.courses-page .section-label,
+.courses-page .eyebrow,
+.courses-page .subtitle,
+.courses-page .section-subtitle,
+.courses-page .orange-text {
+  color: #dc2626 !important;
+}
+
+.courses-page h1 span,
+.courses-page h2 span,
+.courses-page h3 span {
+  color: #dc2626 !important;
+}
+
+.courses-page a {
+  color: #dc2626;
+}
+
+.courses-page a:hover {
+  color: #b91c1c;
+}
+
+/* =========================================
+   MY LEARNING PAGE
+========================================= */
+
+.learning-page .highlight,
+.learning-page .accent-text,
+.learning-page .section-label,
+.learning-page .eyebrow,
+.learning-page .subtitle,
+.learning-page .section-subtitle,
+.learning-page .orange-text {
+  color: #dc2626 !important;
+}
+
+.learning-page h1 span,
+.learning-page h2 span,
+.learning-page h3 span {
+  color: #dc2626 !important;
+}
+
+.learning-page a {
+  color: #dc2626;
+}
+
+.learning-page a:hover {
+  color: #b91c1c;
+}
+
+/* Progress bars */
+
+.learning-page progress {
+  accent-color: #dc2626;
+}
+
+.learning-page .progress-fill,
+.learning-page .progress-bar-fill {
+  background-color: #dc2626;
+}
+
+/* =========================================
+   RED BUTTONS
+========================================= */
+
+.courses-page .other-primary-button,
+.learning-page .other-primary-button {
+  background-color: #dc2626;
+  border-color: #dc2626;
+  color: #ffffff;
+}
+
+.courses-page .other-primary-button:hover,
+.learning-page .other-primary-button:hover {
+  background-color: #b91c1c;
+  border-color: #b91c1c;
+  color: #ffffff;
+}
+
+/* =========================================
+   RESPONSIVE STYLING
+========================================= */
+
+@media (max-width: 768px) {
+  .courses-page h1,
+  .learning-page h1 {
+    overflow-wrap: anywhere;
+  }
+}
